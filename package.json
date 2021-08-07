@@ -1,0 +1,21 @@
+{
+  "name": "etsy-fetch-migration-tool",
+  "version": "1.0.0",
+  "description": "Connect to WP Engine DB and fetch articles in batches",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Aldo Ruiz",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  },
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "winston": "^3.3.3"
+  }
+}
